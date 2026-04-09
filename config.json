@@ -2,6 +2,7 @@
   "public": {
     "default": {
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/8tF44stT3ri1fz3BYZmPWb/graphql",
+      "commerce-assets-enabled": true,
       "headers": {
         "all": {
           "Store": "default"
@@ -14,7 +15,6 @@
       },
       "commerce-b2b-enabled": false,
       "commerce-companies-enabled": false,
-      "commerce-assets-enabled": true,
       "adobe-commerce-optimizer": false,
       "analytics": {
         "base-currency-code": "USD",
