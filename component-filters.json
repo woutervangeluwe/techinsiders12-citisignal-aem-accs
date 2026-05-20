@@ -25,9 +25,11 @@
       "form",
       "embed-adaptive-form",
       "product-teaser",
-      "product-recommendations"
+      "product-recommendations",
+      "brandconcierge"
     ]
   },
+  
   {
     "id": "enrichment-section",
     "components": [
