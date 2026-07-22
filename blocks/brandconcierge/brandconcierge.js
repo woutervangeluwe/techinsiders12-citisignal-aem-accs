@@ -1,12 +1,22 @@
+function waitForConnected(node) {
+  return new Promise((resolve) => {
+    const tick = () => {
+      if (node.isConnected) resolve();
+      else requestAnimationFrame(tick);
+    };
+    tick();
+  });
+}
+
 export default async function decorate(block) {
-  // 既存の中身を消して、確実にマウント先を作る
-  block.innerHTML = '';
+  block.replaceChildren();
 
   const mount = document.createElement('div');
   mount.id = 'brand-concierge-mount';
   block.appendChild(mount);
 
-  // alloy がまだ読めていない場合は、ここで止める
+  await waitForConnected(block);
+
   if (typeof window.alloy !== 'function') {
     console.error('Brand Concierge: alloy is not available');
     return;
