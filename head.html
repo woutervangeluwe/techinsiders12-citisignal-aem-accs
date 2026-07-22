@@ -70,6 +70,30 @@
         thirdPartyCookiesEnabled: false,
         prehidingStyle: ".personalization-container { opacity: 0 !important }",
     });
+
+    window["alloy"]("sendEvent", {
+        conversation: {
+            fetchConversationalExperience: true
+        }
+    }).then(result => {
+        console.log("Conversation experience fetched", result);
+        const bootstrapConversationalExperience = (cnt) => {
+            if(document.querySelector('#brand-concierge-mount'))
+            {
+                window["alloy"]("bootstrapConversationalExperience", {
+                    selector: "#brand-concierge-mount",
+                    src: "/scripts/brandconciergemain.js",
+                    stylingConfigurations: window.styleConfiguration,
+                    stickySession: true // create a sticky session cookie with expiration
+                });
+            }else{
+                if(cnt<10){
+                  setTimeout(()=>{bootstrapConversationalExperience(cnt+1)}, 100);
+                }
+            }
+        };
+        bootstrapConversationalExperience(0);
+    });
 </script>
 
 <script nonce="aem" src="/scripts/aem.js" type="module"></script>
