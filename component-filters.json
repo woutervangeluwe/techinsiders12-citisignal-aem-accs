@@ -25,8 +25,7 @@
       "form",
       "embed-adaptive-form",
       "product-teaser",
-      "product-recommendations",
-      "brandconcierge"
+      "product-recommendations"
     ]
   },
   {
@@ -95,6 +94,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-mini-cart"
     ]
   },
@@ -109,6 +109,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-cart",
       "product-teaser",
       "product-recommendations"
@@ -125,6 +126,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-order-header",
       "commerce-order-status",
       "commerce-shipping-status",
@@ -148,6 +150,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-checkout"
     ]
   },
@@ -162,6 +165,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-search-order"
     ]
   },
@@ -176,6 +180,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "product-list-page"
     ]
   },
@@ -190,6 +195,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-login"
     ]
   },
@@ -204,6 +210,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-forgot-password"
     ]
   },
@@ -218,6 +225,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-create-account"
     ]
   },
@@ -232,6 +240,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-account-sidebar",
       "commerce-account-header",
       "commerce-orders-list",
@@ -251,6 +260,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-account-sidebar",
       "commerce-orders-list"
     ]
@@ -266,6 +276,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-account-sidebar",
       "commerce-addresses"
     ]
@@ -281,6 +292,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-account-sidebar",
       "commerce-returns-list"
     ]
@@ -296,6 +308,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-account-sidebar",
       "commerce-order-header",
       "commerce-order-status",
@@ -317,6 +330,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-search-order"
     ]
   },
@@ -331,6 +345,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-return-header",
       "commerce-order-status",
       "commerce-shipping-status",
@@ -349,6 +364,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-create-return"
     ]
   },
@@ -363,6 +379,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-confirm-account"
     ]
   },
@@ -377,6 +394,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-create-password"
     ]
   },
@@ -391,6 +409,7 @@
       "cards",
       "columns",
       "fragment",
+      "embed-adaptive-form",
       "commerce-wishlist"
     ]
   },
